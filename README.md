@@ -38,3 +38,4 @@ STEP 3: Connecting to the MySQL Server on server 2 from the client on server 1
 
 Connect to the MySQL server using the following command:
 mysql --host=54.211.139.188  --user=Eniros -p OR mysql -h localhost -u myname -p mydb
+<img width="571" alt="Screenshot 2022-12-01 at 10 24 04" src="https://user-images.githubusercontent.com/61475969/205028718-fcbdea5b-1916-4b38-a4aa-5e77fd1bfde3.png">
