@@ -34,8 +34,6 @@ CREATE USER 'Eniros'@'%' IDENTIFIED WITH mysql_native_password BY '******';
 GRANT ALL PRIVILEGES ON *.* TO 'Eniros'@'%' WITH GRANT OPTION;
 CREATE DATABASE ProjectServArc;
 
-Edit the sql config file to allow remote connection by running the command:
-sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 
 Update the etc file bind address to the you want for the remote connection or set to 0.0.0.0 for universal
 
