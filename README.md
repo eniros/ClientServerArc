@@ -34,6 +34,14 @@ CREATE USER 'Eniros'@'%' IDENTIFIED WITH mysql_native_password BY '******';
 GRANT ALL PRIVILEGES ON *.* TO 'Eniros'@'%' WITH GRANT OPTION;
 CREATE DATABASE ProjectServArc;
 
+Edit the sql config file to allow remote connection by running the command:
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+Update the etc file bind address to the you want for the remote connection or set to 0.0.0.0 for universal
+
+<img width="705" alt="Screenshot 2022-12-01 at 14 52 19" src="https://user-images.githubusercontent.com/61475969/205086191-33c9e948-0203-4160-9e2d-b6f6bb83174e.png">
+
+
 STEP 3: Connecting to the MySQL Server on server 2 from the client on server 1
 
 Connect to the MySQL server using the following command:
