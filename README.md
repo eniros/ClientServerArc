@@ -11,7 +11,8 @@ Update the apt package index and install the package.
 ```sudo apt-get update```
 ```sudo apt-get install mysql-client```
 
-<img width="557" alt="Screenshot 2022-11-30 at 19 19 53" src="https://user-images.githubusercontent.com/61475969/204890026-a8398f2e-80cd-4d81-9c96-9a2d81f589ff.png">
+<img width="567" alt="Screenshot 2022-12-03 at 22 29 55" src="https://user-images.githubusercontent.com/61475969/205464771-0da75698-f3cb-4e2d-b0ce-8eee7cf6772d.png">
+
 
 STEP 2: Installing the MySQL Server on server 2
 
@@ -19,12 +20,14 @@ Update the apt package index and install the package.
 ```sudo apt-get update```
 ```sudo apt-get install mysql-server```
 
-<img width="557" alt="Screenshot 2022-11-30 at 19 20 59" src="https://user-images.githubusercontent.com/61475969/204890237-5a9a0c56-3312-4ae2-b084-d7c4b4f78bf7.png">
+<img width="567" alt="Screenshot 2022-12-03 at 22 30 54" src="https://user-images.githubusercontent.com/61475969/205464801-37072fbd-0e74-4174-9a7e-099cd96b2289.png">
+
 
 Edit MYSQL configuration file to allow remote access to MySQL server and replace 127.0.0.1 with 0.0.0.0.
 ```sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf```
 
-<img width="557" alt="Screenshot 2022-11-30 at 19 46 49" src="https://user-images.githubusercontent.com/61475969/204894078-60c5d1dd-ddaa-40c4-9a50-560d1ed66cc6.png">
+<img width="567" alt="Screenshot 2022-12-03 at 22 31 41" src="https://user-images.githubusercontent.com/61475969/205464816-f7cbc520-d72f-4305-bd4d-2c55d0cbd5bb.png">
+
 
 Restart MySQL server.
 ```sudo service mysql restart```
